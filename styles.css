@@ -12,3 +12,8 @@ h2 {
 	text-align: center;
 	color: white;
 }
+
+p {
+	margin-right: auto;
+	width: 40%;
+}
