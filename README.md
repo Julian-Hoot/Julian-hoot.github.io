@@ -7,7 +7,13 @@ My first real issue arrived when I had to position my image on the main page. At
 
 My next issue came with positioning the photo with the "artist bio" paragraph. At first, the text appeared below the image, when I wanted the text and image side by side. I tried using margins and text align to move the image to the side and the text to the opposite side, but it still didn't work. The solution was to put the image and text in a `<div>` container, and then use the flex command to make them fit side by side within the container.
 
-Next I added a nav bar. I added a home, about, media, and contact pages. At first, the buttons appeared on my website, but I got an error404 everytime I clicked one.
+Next I added a nav bar. I added a home, about, media, and contact pages. At first, the buttons appeared on my website, but I got an error404 everytime I clicked one. I then googled what was wrong and stackoverflow.com told me that I need multiple html files. Adding more html files and making small changes between them based on what they need solved my issue.
+
+Source: https://stackoverflow.com/questions/66146728/hosting-a-github-pages-server-with-multiple-html-files
+
+
+
+
 
 ## ABDYD
 Changed `<img src="juliancnotegrey.jpg">` to `<img src="/images/juliancnotegrey.jpg">`
