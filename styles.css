@@ -13,14 +13,18 @@ h2 {
 	color: white;
 }
 
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
 img {
-	  margin-right: auto;
 	  width: 40%;
-	  padding-left: 20px;
 }
 
 .artistbio {
+	flex: 1;
 	color: white;
 	width: 50%;
-	margin-left: auto;
 }
