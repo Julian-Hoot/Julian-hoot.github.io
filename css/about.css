@@ -13,11 +13,24 @@ h2 {
 	color: white;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.juliancnoteblue {
+	width: 30%;
+}
+
+.julianheadshot {
+	width: 30%;
+	flex: 1;
+}
+
+.pcbridgegrey {
+	width: 30%;
+	flex: 2;
 }
 
 h3 {
@@ -28,10 +41,4 @@ h3 {
 p {
 	text-align: center;
 	color: white;
-}
-
-.artistbio {
-	flex: 1;
-	color: white;
-	width: 50%;
 }
