@@ -20,6 +20,14 @@ img {
 	width: 40%;
 }
 
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
 .artistbio {
 	flex: 1;
 	color: white;
