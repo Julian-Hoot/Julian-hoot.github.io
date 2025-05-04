@@ -11,8 +11,7 @@ Next I added a nav bar. I added a home, about, media, and contact pages. At firs
 
 Source: https://stackoverflow.com/questions/66146728/hosting-a-github-pages-server-with-multiple-html-files
 
-
-
+Next, I added an embeded youtube video of me playing drums in my "media" page. This was fairly straightforward since I could copy the embed code directly from youtube and paste it into my code. The issue was centering the video with the page.
 
 
 ## ABDYD
