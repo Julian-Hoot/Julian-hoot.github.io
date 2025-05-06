@@ -29,14 +29,12 @@ I also decided to embed my band's single on my homepage, below my artist stateme
 - artist bio and statement paragraphs were not spaced properly - added `<br/><br/>` instead of `<br/>`
 
 - in order to make artist statement and image line up side by side, I put them in a container and used a flex display:
-`<div class="container">
-	<img src="/images/juliancnotegrey.jpg" class="left-image">
-	<div class="artiststatement">
-		<h3><b>Artist Statement</b></h3>
-		<p>
-"blah blah blah arist statement (didn't want to paste the whole thing cus its a wall of text)"
-</p>
-</div>`
+`<div class="container">`
+	`<img src="/images/juliancnotegrey.jpg" class="left-image">`
+	`<div class="artiststatement">`
+		`<h3><b>Artist Statement</b></h3>`
+		`<p>"blah blah blah arist statement (didn't want to paste the whole thing cus its a wall of text)"</p>`
+`</div>`
 
 and in the CSS file:
 `.container {
