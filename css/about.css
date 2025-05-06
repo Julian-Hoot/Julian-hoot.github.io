@@ -43,7 +43,7 @@ h3 {
 .artistbioparagraph {
 	max-width: 60%;
 	display: block;
-	align-items: center;
+	align: center;
 }
 
 p {
