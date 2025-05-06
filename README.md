@@ -21,8 +21,55 @@ I also added a video from instagram of my band playing.
 
 Next I added the "links" page, with all of my various social medias and things. First I put in the hyperlinks and got those working.
 
+I also decided to embed my band's single on my homepage, below my artist statement. The formatting worked perfectly the first time, which was very surprising.
 
 ## ABDYD
 - Changed `<img src="juliancnotegrey.jpg">` to `<img src="/images/juliancnotegrey.jpg">`
-- 
 
+- artist bio and statement paragraphs were not spaced properly - added `<br/><br/>` instead of `<br/>`
+
+- in order to make artist statement and image line up side by side, I put them in a container and used a flex display:
+`<div class="container">
+	<img src="/images/juliancnotegrey.jpg" class="left-image">
+	<div class="artiststatement">
+		<h3><b>Artist Statement</b></h3>
+		<p>
+"blah blah blah arist statement (didn't want to paste the whole thing cus its a wall of text)"
+</p>
+</div>`
+
+and in the CSS file:
+`.container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+img {
+	  width: 40%;
+}
+
+.artiststatement {
+	flex: 1;
+	color: white;
+	width: 45%;
+}`
+
+## ChatGPT Interactions (Photos)
+![image](ChatGPTPhotos/gpt1.jpg)
+![image](ChatGPTPhotos/gpt2.jpg)
+![image](ChatGPTPhotos/gpt3.jpg)
+![image](ChatGPTPhotos/gpt4.jpg)
+![image](ChatGPTPhotos/gpt5.jpg)
+![image](ChatGPTPhotos/gpt6.jpg)
+![image](ChatGPTPhotos/gpt7.jpg)
+![image](ChatGPTPhotos/gpt8.jpg)
+![image](ChatGPTPhotos/gpt9.jpg)
+![image](ChatGPTPhotos/gpt10.jpg)
+
+## What I learned from ChatGPT
+- GPT pointed out that my nav bar was outside my body (this was an accident)
+- GPT said I should use a div container instead of span, I don't exactly know why, but I assume span is used for something niche that I don't know about, while div is more general
+- I learned the new commands in the 3rd photo (the comments from GPT helped)
+- GPT helped me restructure my HTML and CSS files, which helped me understand how containers should be structured in order to work more effectively
+- lastly GPT helped me put my embeded videos on the site, but I coudln't get them centered still
