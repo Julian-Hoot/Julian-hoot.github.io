@@ -11,8 +11,9 @@ Next I added a nav bar. I added a home, about, media, and links pages. At first,
 Source: https://stackoverflow.com/questions/66146728/hosting-a-github-pages-server-with-multiple-html-files
 
 Then I decided I wanted my nav bar to be centered, and fixed at the bottom of my page, so that when I scroll down, it sticks to the same position on the screen and does not overlap with any other content.
-I also consulted stack overflow for this. 
-
+I also consulted stack overflow for this.
+Source: https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+I still coudn't implement it properly in my code so I decided to prioritize functional aspects of the site rather than visual.
 
 Next, I added an embeded youtube video of me playing drums in my "media" page. This was fairly straightforward since I could copy the embed code directly from youtube and paste it into my code. The issue was centering the video with the page.(I still don't know how to do this it hasn't been working).
 
@@ -22,4 +23,6 @@ Next I added the "links" page, with all of my various social medias and things. 
 
 
 ## ABDYD
-Changed `<img src="juliancnotegrey.jpg">` to `<img src="/images/juliancnotegrey.jpg">`
+- Changed `<img src="juliancnotegrey.jpg">` to `<img src="/images/juliancnotegrey.jpg">`
+- 
+
