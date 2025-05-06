@@ -54,16 +54,16 @@ img {
 }`
 
 ## ChatGPT Interactions (Photos)
-<img src="ChatGPTPhotos/gpt1.jpg">
-<img src="ChatGPTPhotos/gpt2.jpg">
-<img src="ChatGPTPhotos/gpt3.jpg">
-<img src="ChatGPTPhotos/gpt4.jpg">
-<img src="ChatGPTPhotos/gpt5.jpg">
-<img src="ChatGPTPhotos/gpt6.jpg">
-<img src="ChatGPTPhotos/gpt7.jpg">
-<img src="ChatGPTPhotos/gpt8.jpg">
-<img src="ChatGPTPhotos/gpt9.jpg">
-<img src="ChatGPTPhotos/gpt10.jpg">
+<img src="/ChatGPTPhotos/gpt1.jpg">
+<img src="/ChatGPTPhotos/gpt2.jpg">
+<img src="/ChatGPTPhotos/gpt3.jpg">
+<img src="/ChatGPTPhotos/gpt4.jpg">
+<img src="/ChatGPTPhotos/gpt5.jpg">
+<img src="/ChatGPTPhotos/gpt6.jpg">
+<img src="/ChatGPTPhotos/gpt7.jpg">
+<img src="/ChatGPTPhotos/gpt8.jpg">
+<img src="/ChatGPTPhotos/gpt9.jpg">
+<img src="/ChatGPTPhotos/gpt10.jpg">
 
 ## What I learned from ChatGPT
 - GPT pointed out that my nav bar was outside my body (this was an accident)
